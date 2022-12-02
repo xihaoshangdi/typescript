@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsx": "tsx ./src/file.ts",
+    "swc": "swc ./src/file.ts",
+    "tsc":"tsc ./src/file.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.21",
+    "tsx": "^3.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
